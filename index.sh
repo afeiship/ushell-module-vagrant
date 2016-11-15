@@ -8,5 +8,6 @@ alias vg-box-remove='vagrant box remove';
 alias vg-init='vagrant init';
 alias vg-up='vagrant up';
 alias vg-ssh='vagrant ssh';
+alias vg-reload='vagrant reload';
 
 unset ROOT_PATH;
