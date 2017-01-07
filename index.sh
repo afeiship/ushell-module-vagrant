@@ -9,5 +9,7 @@ alias vg-init='vagrant init';
 alias vg-up='vagrant up';
 alias vg-ssh='vagrant ssh';
 alias vg-reload='vagrant reload';
+alias vg-backup='vagrant package --output ~/soft/fei-vagrant-centos72-`date +%Y-%m-%d`.box';
+
 
 unset ROOT_PATH;
